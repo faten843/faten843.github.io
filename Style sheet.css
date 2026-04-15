@@ -110,9 +110,9 @@ td {
 }
 
 caption{ 
-	color: white;
 	font-size: 140%;
-    text-shadow: 1px 1px 0px rgb(240, 198, 151);                  /* Newly added */
+    text-shadow: 1px 1px 0px rgb(240, 198, 151);
+	background-color: rgba(222, 193, 149, 0.7);
 }
 
 /* Hover effect on table rows */
