@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course | Personal Course Organizer</title>
+    <link rel="stylesheet" href="Style sheet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.htm">Home</a>
+            <a href="My courses.htm">My Courses</a>
+            <a href="Add course.htm">Add Course</a>
+            <a href="Contact us.htm">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-course-section">
+            <h1 class="h1-1">Add Course</h1>
+            <p>Fill out the form below to add a new course to your organizer.</p>
+
+            <form action="#" method="get">
+                <div class="formlayout">
+                    <label for="courseName">Course Name</label>
+                    <input type="text" id="courseName" name="courseName" placeholder="e.g., JavaScript" required>
+
+                    <label for="lecturer">Lecturer</label>
+                    <input type="text" id="lecturer" name="lecturer" placeholder="Lecturer name" required>
+
+                    <label for="creditHours">Credit Hours</label>
+                    <input type="number" id="creditHours" name="creditHours" placeholder="e.g., 3" required>
+
+                    <label for="notes">Notes</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="Any additional notes..."></textarea>
+
+                    <button type="submit" class="submit-btn">Save Course</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Personal Course Organizer; All rights reserved</p>
+    </footer>
+</body>
+</html>
