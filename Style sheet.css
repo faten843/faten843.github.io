@@ -17,7 +17,7 @@ main {
     flex: 1;
 }
 header {
-    background-color: rgba(250, 220, 210, 0.95);
+    background-color: rgba(240, 222, 200, 0.95);
     padding: 10px 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     
